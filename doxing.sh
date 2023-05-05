@@ -5,7 +5,7 @@ sleep 3.0
 clear
 #banner
 function banner(){
-    echo"
+    echo "
   ___          _             _            _ 
  |   \ _____ _(_)_ _  __ _  | |_ ___  ___| |
  | |) / _ \ \ / |    \/ _ | |  _/ _ \/ _ \ |
@@ -123,12 +123,12 @@ function Osint(){
 
 function webscan(){
     clear
-    echo"Put the url of the web"
+    echo "Put the url of the web"
     read -p ">>> " url
     clear
     host $url
     echo""
-    echo"Put the ip of the web"
+    echo "Put the ip of the web"
     read -p ">>> " ipweb
     clear
     whois $ipweb
@@ -138,25 +138,25 @@ clear
 banner
 echo""
 sleep 1
-echo"1) ---> Install dependencies "
+echo "1) ---> Install dependencies "
 sleep 1
 echo""
-echo"2) --->  IP INFO"
+echo "2) --->  IP INFO"
 echo""
 sleep 1
-echo"3) ---> Maskphishing"
+echo "3) ---> Maskphishing"
 echo""
 sleep 1
-echo"4) ---> PhoneInfoga"
+echo "4) ---> PhoneInfoga"
 echo""
 sleep 1
-echo"5) ---> PyPhisher"
+echo "5) ---> PyPhisher"
 echo""
 sleep 1
-echo"6) ---> Osint"
+echo "6) ---> Osint"
 echo""
 sleep 1
-echo"7) ---> WEB SCAN"
+echo "7) ---> WEB SCAN"
 sleep 1
 echo""
 read -p ">>> " menu
