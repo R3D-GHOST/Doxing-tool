@@ -57,13 +57,14 @@ function depe(){
     #osint
     clear
     cd 
-    git clone
-    https://github.com/thewhiteh4t/nexfil.git
+    git clone https://github.com/thewhiteh4t/nexfil.git
     cd nexfil
     pip3 install -r requirements.txt
     sleep 3
     echo "Install end"
     sleep 1
+    clear
+    bash doxing.sh
     
 }
 
@@ -127,7 +128,7 @@ function Osint(){
     cd nexfil
     clear
     echo "Put the name of the person"
-    read -p " >>> " username
+    read -p ">>> " username
     python3 nexfil.py -u $username
     
 }
