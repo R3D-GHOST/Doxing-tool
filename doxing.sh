@@ -25,7 +25,7 @@ function depe(){
     
     sleep 1
     clear
-    echo"By R3DGH0ST"
+    echo "By R3DGH0ST"
     sleep 3
     clear
     
@@ -144,7 +144,7 @@ sleep 1
 echo "1) ---> Install dependencies "
 sleep 1
 echo""
-echo "2) --->  IP INFO"
+echo "2) ---> IP INFO"
 echo""
 sleep 1
 echo "3) ---> Maskphishing"
