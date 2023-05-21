@@ -30,8 +30,7 @@ function depe(){
     #Phishing
     clear
     cd
-    git clone
-    git://github.com/htr-tech/nexphisher.git
+    git clone git://github.com/htr-tech/nexphisher.git
     cd nexphisher
     bash tmux_setup
     cd
