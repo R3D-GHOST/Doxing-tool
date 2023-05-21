@@ -50,8 +50,7 @@ function depe(){
     
     #osint
     clear
-    git clone
-    https://github.com/thewhiteh4t/nexfil.git
+    git clone https://github.com/thewhiteh4t/nexfil.git
     cd nexfil
     pip3 install -r requirements.txt
     sleep 3
