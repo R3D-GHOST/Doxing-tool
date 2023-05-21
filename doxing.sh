@@ -153,7 +153,7 @@ sleep 1
 echo "1) ---> Install dependencies "
 sleep 1
 echo""
-echo "2) --->  IP INFO"
+echo "2) ---> IP INFO"
 echo""
 sleep 1
 echo "3) ---> Maskphishing"
