@@ -43,7 +43,7 @@ function depe(){
     python3 -m pip install -r requirments.txt
     chmod +x *
     
-    cd../
+    cd 
     
     pkg install whois
     pkg install host
@@ -98,12 +98,14 @@ function zPhisher(){
 
 function Maskphishing(){
     clear
+    cd
     cd maskphish
     bash maskphish.sh
 }
 
 function PhoneInfoga(){
     clear
+    cd
     cd PhoneInfoga
     echo "Place the number Example +346349XXXXX"
     read -p ">>> " numero
@@ -113,6 +115,7 @@ function PhoneInfoga(){
 
 function Osint(){
     clear
+    cd
     cd nexfil
     clear
     echo "Put the name of the person"
