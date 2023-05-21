@@ -118,7 +118,7 @@ function Osint(){
     cd nexfil
     clear
     echo "Put the name of the person"
-    read -p " >>> " username
+    read -p ">>> " username
     python3 nexfil.py -u $username
     
 }
